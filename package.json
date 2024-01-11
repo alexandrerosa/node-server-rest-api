@@ -1,0 +1,19 @@
+{
+  "name": "server-rest-api",
+  "version": "1.0.0",
+  "description": "Node server with REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrerosa/node-server-rest-api.git"
+  },
+  "author": "Alexandre ROSA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandrerosa/node-server-rest-api/issues"
+  },
+  "homepage": "https://github.com/alexandrerosa/node-server-rest-api#readme"
+}
