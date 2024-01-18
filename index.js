@@ -11,6 +11,8 @@ const port = process.env.PORT;
 
 app.use(express.json());
 
+mongoose.connect('mongodb://localhost:27017/myDatabase');
+
 // Mounting the user and car routes
 app.use("/users", usersRoutes);
 app.use("/cars", carsRoutes);
